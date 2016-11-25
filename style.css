@@ -1,0 +1,67 @@
+.header {
+    
+    height: 100px;
+}
+
+.img {
+    
+    max-width: 100%;
+    height: 100px;
+}
+
+.right {
+    
+    float: right;
+}
+
+.menu {
+    
+    padding-top: 10px;
+}
+
+/** Bootstrap override **/
+
+.nav-item {
+    
+    margin-left: 1.5rem !important;
+}
+
+.fa {
+    
+    padding-right: 5px;
+}
+
+.carousel {
+    
+    height: 500px !important;
+}
+
+.carousel-inner {
+    
+    height: inherit !important;
+}
+
+.carousel-item {
+    
+    height: inherit !important;
+}
+
+.carousel-inner>.carousel-item>a>img, .carousel-inner>.carousel-item>img, .img-fluid {
+    width: 100%;
+    height: 100% !important;
+}
+
+.card {
+    min-height: 550px;
+}
+
+.card-img-top {
+    
+    width: 100%;
+    height: 300px;
+}
+
+.hidden {
+    
+    display: none;
+}
